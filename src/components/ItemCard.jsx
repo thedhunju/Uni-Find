@@ -1,3 +1,4 @@
+/* Item card */
 export default function ItemCard({ item }) {
     return (
         <div className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden border border-gray-100">
@@ -30,3 +31,5 @@ export default function ItemCard({ item }) {
         </div>
     );
 }
+
+

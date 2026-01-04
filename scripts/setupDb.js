@@ -1,3 +1,5 @@
+/* Setup Database */
+
 const mysql = require('mysql2/promise');
 require('dotenv').config();
 
@@ -92,3 +94,4 @@ async function setup() {
 }
 
 setup();
+

@@ -1,3 +1,5 @@
+/* Initialize Database Schema*/
+
 const db = require('../db');
 
 async function init() {
@@ -26,3 +28,4 @@ async function init() {
 }
 
 init();
+
