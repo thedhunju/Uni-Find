@@ -1,3 +1,5 @@
+/*Navigation Bar*/
+
 import { Link } from 'react-router-dom';
 import { MessageCircle, User, PlusCircle, Search } from 'lucide-react';
 
@@ -50,3 +52,4 @@ export default function Navbar() {
         </nav>
     );
 }
+
